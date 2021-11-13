@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "name": "monorepo-tutorial",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "ecklf",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
